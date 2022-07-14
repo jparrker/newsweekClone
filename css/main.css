@@ -126,6 +126,9 @@ img{
     width: 90%;
     margin: 0 auto;
   }
+  .sidebar-list{
+    list-style-position: inside;
+  }
 }
 
 @media only screen and (max-width: 768px){
@@ -154,7 +157,5 @@ img{
   body{
     margin-bottom: 2rem;
   }
-  .sidebar-list{
-    list-style-position: inside;
-  }
+  
   }
