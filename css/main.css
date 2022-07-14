@@ -1,0 +1,163 @@
+body {
+  font-family: "Helvitica Neue", Helvetica, Aria;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+
+img{
+  width: 100%;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+
+.main-article {
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+
+.main-text{
+  border-top: 4px solid #ff0500;
+  padding: 1rem 2rem 1.5rem;
+  text-align: center;
+  background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+  
+.main-heading {
+  text-align: center;
+  
+}
+
+.main-heading a {
+  color: #ff0500;
+  font-size: 2rem;
+}
+
+.sub-heading a{
+  color: #000;
+  text-transform: uppercase;
+}
+
+.ed-info {
+  text-align: center;
+  background: #e6ffff;
+  border: 1px solid #cdf0ff;
+}
+
+.ed-info a{
+  color: #337ab7;
+  font-size: 2rem;
+}
+
+.left-article {
+  text-align: center;
+}
+
+.left-article h2{
+  color: #ff0500;
+}
+#left-title{
+  color: #000;
+}
+
+
+
+.sidebar-heading{
+  font-size: 1.9rem;
+  color: #ff0500;
+  padding: 2rem 0
+
+}
+
+.sidebar-list{
+  list-style-type: square;
+  color: #ff0500;
+  list-style-position: outside;
+}
+
+.sidebar-list li{
+  padding: 2rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.sidebar-list a{
+  color: #000;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.all-headlines-button{
+  background: #e5e5e5;
+  color:#757575;
+  font-size: 1.6rem;
+  display: block;
+  text-align: center;
+  width: 100%;
+  border: none;
+  padding: 2rem 0;
+  border: 1px solid #333;
+}
+
+.all-headlines-button:hover{
+  background: #757575;
+}
+
+@media only screen and (min-width: 1200px){
+  .small-articles p{
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .sidebar-wrapper ul {
+    text-align: center;
+  }
+  .sidebar-heading {
+    text-align: center;
+  }
+
+  .sidebar-wrapper{
+    border-top: 1px solid #e5e5e5;
+    background-color: #f7f7f7;
+  }
+  .all-headlines-button{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .sidebar-wrapper ul li a{
+    font-size: 1.3rem;
+  }
+  .main-text {
+    display: block;
+    background: #fff;
+    position: static;
+  }
+  .main-article{
+    position: static;
+  }
+  .sidebar-mobile{
+    margin-left: -15px;
+    margin-right: -15px;
+    }
+    .sidebar-list li {
+      padding: 2rem 2rem;
+    }
+  .small-articles{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 2rem;
+  }
+  body{
+    margin-bottom: 2rem;
+  }
+  }
