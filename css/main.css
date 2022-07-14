@@ -5,21 +5,17 @@ body {
   color: #333;
 }
 
-
 img{
   width: 100%;
 }
-
 .navbar{
   margin-bottom: 0;
 }
-
 .main-article {
   position: relative;
   margin-left: -15px;
   margin-right: -15px;
 }
-
 
 .main-text{
   border-top: 4px solid #ff0500;
@@ -68,8 +64,6 @@ img{
 #left-title{
   color: #000;
 }
-
-
 
 .sidebar-heading{
   font-size: 1.9rem;
