@@ -160,4 +160,7 @@ img{
   body{
     margin-bottom: 2rem;
   }
+  .sidebar-list{
+    list-style-position: inside;
+  }
   }
